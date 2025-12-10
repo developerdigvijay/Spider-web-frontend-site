@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer | Symbiote Edition</title>
+    <meta name="description" content="Portfolio of a Frontend Developer, inspired by the Black Suit Spiderman.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="spider-icon">
+                <i class="fa-solid fa-spider"></i>
+            </div>
+            <div class="loading-text">INITIALIZING SYMBIOTE....</div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">SPIDER<span class="accent">DEV</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h3 class="subtitle">Welcome to the Web</h3>
+            <h1 class="title glitch" data-text="FRONTEND DEVELOPER">FRONTEND <br> DEVELOPER</h1>
+            <p class="description">Crafting dark, immersive, and responsive digital experiences.</p>
+            <a href="#projects" class="cta-button">View Work</a>
+        </div>
+        <div class="hero-visual">
+            <div class="spider-web"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text hidden">
+                    <p>I am a developer who thrives in the shadows of code. Like the symbiote, I adapt to any challenge,
+                        transforming complex problems into sleek, powerful user interfaces.</p>
+                    <p>Specializing in modern web technologies, I build websites that are fast, responsive, and visually
+                        striking.</p>
+                </div>
+                <div class="about-visual hidden">
+                    <div class="card-glass">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>Clean Code</h4>
+                    </div>
+                    <div class="card-glass">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h4>Fast Performance</h4>
+                    </div>
+                    <div class="card-glass">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <h4>Responsive</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="accent">Arsenal</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card hidden">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card hidden">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card hidden">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card hidden">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card hidden">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-card hidden">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h3>UI/UX</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Selected <span class="accent">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card hidden">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>E-Commerce Web</h3>
+                        <p>A dark-themed shopping experience.</p>
+                        <div class="project-links">
+                            <a href="#">Demo</a>
+                            <a href="#">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hidden">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>Portfolio V1</h3>
+                        <p>Minimalist personal site.</p>
+                        <div class="project-links">
+                            <a href="#">Demo</a>
+                            <a href="#">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hidden">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>Dashboard App</h3>
+                        <p>Data visualization with style.</p>
+                        <div class="project-links">
+                            <a href="#">Demo</a>
+                            <a href="#">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+            <p class="contact-text">Ready to weave something amazing together?</p>
+            <a href="mailto:hello@example.com" class="cta-button">Say Hello</a>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SpiderDev. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
